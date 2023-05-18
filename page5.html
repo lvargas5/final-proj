@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="fonts.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Video</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-image: url('datapriv1.jpeg');
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      width: 100%;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      background-color: transparent;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      z-index: 999;
+    }
+
+    .menu-item {
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .menu-item:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    #video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      padding-top: 20;
+    }
+
+    iframe {
+      width: 560px;
+      height: 315px;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      color: #888;
+    }
+
+    footer a {
+      color: #888;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu">
+    <a href="page1.html" class="menu-item">Home</a>
+    <a href="page6.html" class="menu-item">Sitemap & References</a>
+    <a href="page3.html" class="menu-item">Effects</a>
+    <a href="page4.html" class="menu-item">Contact</a>
+  </div>
+
+  <div class="header">
+    <h1> </h1>
+  </div>
+
+  <div id="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/meq2tJJsA6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <footer>
+    &copy; 2023 Towson University | <a href="mailto:lvarga2@students.towson.edu">Contact</a> | Laurel Vargas
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="fonts.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-image: url('contactpic1.jpg'); 'contactpic1.jpg';
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      width: 100%;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+.form-group label {
+  display: inline-block;
+}
+
+    .comments {
+      margin-bottom: 20px;
+    }
+
+    .comments label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .comments textarea {
+      width: 100%;
+      height: 100px;
+    }
+
+    .submit-btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #555;
+    }
+    
+    .question-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .question-container .form-group {
+      flex: 1;
+      margin: 0;
+    }
+    .menu {
+      background-color: transparent;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      z-index: 999:
+    }
+
+    .menu-item {
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      color: black;
+    }
+
+    .menu-item:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      color: #888;
+    }
+
+    footer a {
+      color: #888;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <a href="page1.html" class="menu-item">Home</a>
+    <a href="page5.html" class="menu-item">Video</a>
+    <a href="page3.html" class="menu-item">Effects</a>
+    <a href="page2.html" class="menu-item">Reasons for change</a>
+  </div>
+
+  <div class="header">
+    <h1> </h1>
+</div>
+
+  <div class="container">
+<h2>What are your thoughts?</h2>
+    <form>
+     <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+<br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+<br>
+<br>
+<br>
+<br>
+      <div class="question-container">
+        <div class="form-group">
+          <label for="question1">Yes, the government needs to reform our internet privacy laws and allow Big Tech corporations to be held liable for the activity on their platforms.</label>
+          <input type="radio" id="option1" name="question1" value="option1">
+        </div>
+        <div class="form-group">
+          <label for="question2">No, the government should not be changing laws about how we use the internet because it is an invasion of speech.</label>
+          <input type="radio" id="option2" name="question1" value="option2">
+        </div>
+      </div>
+<br>
+<br>
+<br>
+<br>
+      <div class="comments">
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments..."></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <footer>
+     &copy; 2023 Towson University | <a href="mailto:lvarga2@students.towson.edu">Contact</a> | Laurel Vargas
+    </footer>
+  </div>
+</body>
+</html>
